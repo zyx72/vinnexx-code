@@ -1,0 +1,11 @@
+node_modules/
+**/node_modules/
+**/dist/
+release/
+.env
+.env.*
+!.env.example
+.vercel/
+**/.vercel/
+*.log
+.DS_Store

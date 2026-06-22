@@ -1,0 +1,28 @@
+{
+  "project": {
+    "name": "Vinnexx Code",
+    "command": "vinnexx",
+    "version": "0.2.0"
+  },
+  "github": {
+    "username": "zyx72",
+    "repo": "vinnexx-code",
+    "branch": "main",
+    "releaseAsset": "vinnexx-code.zip"
+  },
+  "deployment": {
+    "dashboardRoot": "apps/dashboard",
+    "serverRoot": "apps/server",
+    "dashboardUrl": "https://vinnexx.zone.id",
+    "apiBaseUrl": "https://api.vinnexx.zone.id/api/v1"
+  },
+  "ai": {
+  "publicModel": "Sora0.5",
+  "provider": "OpenRouter",
+  "providerModel": "nvidia/nemotron-3-ultra-550b-a55b:free"
+  },
+  "limits": {
+    "freeTokensPerHour": 1000,
+    "charactersPerToken": 5
+  }
+}

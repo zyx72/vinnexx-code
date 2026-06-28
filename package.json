@@ -1,0 +1,30 @@
+{
+  "name": "vinnexx-code",
+  "version": "0.3.0",
+  "private": false,
+  "type": "module",
+  "engines": {
+    "node": ">=20.11.0",
+    "npm": ">=10.0.0"
+  },
+  "scripts": {
+    "install:all": "bash scripts/install-all.sh",
+    "build": "bash scripts/build-all.sh",
+    "typecheck": "bash scripts/typecheck-all.sh",
+    "test": "bash scripts/test-all.sh",
+    "verify": "bash scripts/verify-all.sh",
+    "package:release": "node scripts/package-release.mjs",
+    "dev:client": "npm run dev --prefix apps/client",
+    "dev:server": "npm run dev --prefix apps/server",
+    "dev:dashboard": "npm run dev --prefix apps/dashboard",
+    "build:client": "npm run build --prefix apps/client",
+    "build:server": "npm run build --prefix apps/server",
+    "build:dashboard": "npm run build --prefix apps/dashboard",
+    "package:source": "node scripts/package-source.mjs",
+    "prepare": "node scripts/prepare-client.mjs"
+  },
+  "packageManager": "npm@10.9.2",
+  "bin": {
+    "vinnexx": "apps/client/dist/vinnexx.mjs"
+  }
+}

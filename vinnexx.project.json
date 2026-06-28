@@ -1,0 +1,8 @@
+{
+  "name": "Vinnexx Code",
+  "version": "0.3.0",
+  "apps": ["client", "server", "dashboard"],
+  "publicModels": ["Strummer0.5", "United0.5"],
+  "promptVersion": 3,
+  "globalCommand": "vinnexx"
+}

@@ -1,0 +1,8 @@
+Copyright (c) 2026 zyx72 / Vinnexx. All rights reserved.
+
+This source code is proprietary. Possession of a copy does not grant
+permission to publish, redistribute, sublicense, sell, reverse engineer,
+or operate a competing hosted service based on this code.
+
+Internal testing, modification and deployment are permitted only by the
+copyright owner or parties explicitly authorized by the copyright owner.

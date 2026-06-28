@@ -1,0 +1,22 @@
+[Unit]
+Description=Vinnexx Code API Server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=vinnexx
+Group=vinnexx
+WorkingDirectory=/opt/vinnexx-code
+EnvironmentFile=/etc/vinnexx/server.env
+ExecStart=/usr/bin/node /opt/vinnexx-code/apps/server/dist/index.js
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/vinnexx-code
+
+[Install]
+WantedBy=multi-user.target
